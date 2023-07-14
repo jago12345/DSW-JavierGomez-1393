@@ -33,6 +33,7 @@ aside {
 main {
     grid-area: D;
     background-color: #E5E0FF;
+    text-align: center;
 }
 
 h2 {
@@ -89,9 +90,38 @@ footer {
     padding: 15px 80px;
     margin: 2px;
 }
-.parr{
+
+.parr {
     font-size: 20px;
 }
-.Audio{
-text-align: center;
+
+.Audio {
+    text-align: center;
+}
+
+.imagen-redondeada {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.noso {
+    display: grid;
+    grid-template-areas:
+        'T T T T'
+        'J J S S'
+        'J J S S';
+}
+
+.izquierda {
+    grid-area: J;
+}
+
+.derecha {
+    grid-area: S;
+}
+
+.titulo {
+    grid-area: T;
 }
